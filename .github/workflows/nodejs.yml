@@ -24,5 +24,5 @@ jobs:
         npm run test:mocha
       env:
         CI: true
-        GUEST_SESSION_ID: ${{secrets.guest_session_id}}
-        API_KEY: ${{secrets.api_key}}
+        GUEST_SESSION_ID: ${{secrets.GUEST_SESSION_ID}}
+        API_KEY: ${{secrets.API_KEY}}
