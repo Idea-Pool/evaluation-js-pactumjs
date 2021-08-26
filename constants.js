@@ -4,3 +4,4 @@ module.exports = {
     "guest_session_id": process.env.GUEST_SESSION_ID,
     "movie_id": "597433"
 };
+console.log(module.exports);
