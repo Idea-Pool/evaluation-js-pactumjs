@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 const { request } = require("pactum");
-const { url } = require("../constants.json");
+const { url } = require("../constants");
 
 require("./spec.handlers");
 

@@ -1,5 +1,5 @@
 const { addSpecHandler } = require("pactum").handler;
-const { api_key, movie_id, guest_session_id, url } = require("../constants.json");
+const { api_key, movie_id, guest_session_id, url } = require("../constants");
 
 addSpecHandler("GET movie", (ctx) => {
     const { spec } = ctx;

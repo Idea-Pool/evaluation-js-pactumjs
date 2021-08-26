@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 const pactum = require("pactum");
-const { api_key, guest_session_id, url, movie_id } = require("../constants.json");
+const { api_key, guest_session_id, url, movie_id } = require("../constants");
 const path = require("path");
 const rating = path.resolve(__dirname, "../data/rating.json");
 

@@ -1,6 +1,6 @@
 const pactum = require("pactum");
 const { Given, When, Then, Before } = require("@cucumber/cucumber");
-const { api_key, guest_session_id, url } = require("../../../constants.json");
+const { api_key, guest_session_id, url } = require("../../../constants");
 const expectedJsonSchema = require("../../../expected.json");
 
 let spec = pactum.spec();

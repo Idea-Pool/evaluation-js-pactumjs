@@ -4,6 +4,7 @@
   "description": "This is a template repository to create test-ware for evaluating certain (JS) test automation tools.",
   "main": "-",
   "scripts": {
+    "test": "echo \"No tests defined\" && exit 1",
     "test:cucumber": "cucumber-js --publish-quiet cucumber/features/*.feature --require cucumber/features/support/*.js",
     "test:mocha": "mocha mocha/*.spec.js",
     "lint": "eslint tests --fix"
