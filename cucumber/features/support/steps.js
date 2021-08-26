@@ -21,7 +21,7 @@ Given(/^the "(.+)" is added to the POST request$/, function (movie_id) {
 });
 
 Given(/^the "(.+)" rating is added to the POST request's body$/, function (rate) {
-    spec.wit({
+    spec.withJson({
         value: rate,
     });
 });
