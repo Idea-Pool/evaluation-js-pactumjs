@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "adult": {
+            "type": "boolean"
+        },
+        "budget": {
+            "type": "number"
+        },
+        "id": {
+            "type": "number"
+        },
+        "original_language": {
+            "type": "string"
+        }
+    }
+}

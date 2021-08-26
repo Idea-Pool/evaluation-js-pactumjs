@@ -1,0 +1,6 @@
+{
+    "url": "https://api.themoviedb.org/3",
+    "api_key": YOUR_API_KEY,
+    "guest_session_id": GUEST_SESSION_ID,
+    "movie_id": "597433"
+}
