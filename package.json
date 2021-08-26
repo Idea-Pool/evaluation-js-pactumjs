@@ -1,10 +1,12 @@
 {
-  "name": "evaluation-js-template",
+  "name": "evaluation-js-pactumjs",
   "version": "0.0.1",
   "description": "This is a template repository to create test-ware for evaluating certain (JS) test automation tools.",
   "main": "-",
   "scripts": {
     "test": "echo \"No tests defined\" && exit 1",
+    "test:cucumber": "cucumber-js --publish-quiet cucumber/features/*.feature --require cucumber/features/support/*.js",
+    "test:mocha": "mocha mocha/*.spec.js",
     "lint": "eslint tests --fix"
   },
   "repository": {
@@ -25,8 +27,11 @@
   },
   "homepage": "https://github.com/idea-pool/evaluation-js-template#readme",
   "dependencies": {
+    "@cucumber/cucumber": "7.3.1",
+    "pactum": "3.0.18",
     "eslint": "^7.0.0",
-    "husky": "^4.2.5"
+    "husky": "^4.2.5",
+    "mocha": "9.1.0"
   },
   "husky": {
     "precommit": "npm run lint"
