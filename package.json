@@ -31,7 +31,7 @@
     "pactum": "3.0.18",
     "eslint": "^7.0.0",
     "husky": "^4.2.5",
-    "mocha": "9.1.0"
+    "mocha": "9.2.2"
   },
   "husky": {
     "precommit": "npm run lint"
