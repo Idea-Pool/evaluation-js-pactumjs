@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/idea-pool/evaluation-js-template#readme",
   "dependencies": {
-    "@cucumber/cucumber": "7.3.1",
+    "@cucumber/cucumber": "12.8.1",
     "pactum": "3.0.18",
     "eslint": "^9.39.2",
     "husky": "^4.3.8",
